@@ -1,68 +1,52 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Pagina Administrativa React
+![Digital House](/src/assets/logoDH.png)
+## Exercicio de fixação do curso Desenvolvimento Web Full Stack Node
 
-## Available Scripts
+### Introdução
+Chegou a hora de entrar no maravilhoso mundo do React. E temos certeza de que você
+vai gostar.
+Para esta missão, se você decidir aceitá-la, você vai migrar uma simples estrutura
+HTML + CSS para uma aplicação React.
 
-In the project directory, you can run:
+### Requisitos
+-  **HTML + CSS**: essas "skills" já fazem parte do seu kit de ferramentas, mas sugerimos
+que antes de iniciar, você se familiarize com toda a estrutura do documento fornecido,
+fique claro para onde ir.
 
-### `npm start`
+-  **React Basics**: para poder cumprir esta missão, é necessário que você tenha um claro
+entendimento dos conceitos de COMPONENTE. Caso contrário, recomendamos que
+você reserve alguns minutos para rever estes conceitos.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+> ### Objetivo
+> Seu objetivo principal será construir um aplicativo React, levando em conta que você
+> pode executar alguns dos seguintes comandos:
+>
+> -    `npx create-react-app my-app` 
+> -    `npm init react-app my-app`
+> Uma vez que você tenha o aplicativo instalado. Você deve levar em conta que os
+> componentes gerados devem estar dentro da pasta `/​src` e de preferência dentro de
+> uma pasta chamada `​/components`. 
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+> **Atenção!** ​Neste exercício NÃO iremos trabalhar com o ambiente Node, nem o Express,<br>
+> uma vez que o foco principal do exercício é encarar 100% do lado do React.
 
-### `npm test`
+> # Wireframe
+> **O documento HTML desde que seja assim:**<br>
+>
+> ![Whireframe](/src/assets/wireframe.png)<br>
+>
+> ### Portanto, antes de começar a recomendação é que você se pergunte:
+>
+> - Quais partes da interface podem ser componentes?
+> - Quantos componentes eu preciso gerar?
+> - Se um componente se parece muito com outro. Existe uma maneira de fazer um
+>   único componente e definir sua aparência visual de alguma forma?
+> <br>
+> <br>
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
