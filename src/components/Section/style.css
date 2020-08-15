@@ -1,3 +1,14 @@
 section{
 height: 85vh;
 }
+section h1.title{
+    margin-top: 10px;
+    color: rgb(75, 75, 75);
+    margin-left: 25px;
+}
+article.card-group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 30px;
+}
