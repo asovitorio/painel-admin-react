@@ -1,12 +1,13 @@
 import React from 'react';
 import './style.css'
-import {FaBars,FaBell,FaEnvelope} from 'react-icons/fa';
+import {FaBell,FaEnvelope} from 'react-icons/fa';
 import Avatar from '../../assets/dummy-avatar.jpg'
-export default function Header() {
+export default function Header(props) {
+  
     return(
       <header>
         <nav className="nav-bar">
-          <button  ><i><FaBars /></i></button>
+     
           <div className="suport"></div>
           <ul className="nav-bar-list">
               <li className="nav-bar-link">

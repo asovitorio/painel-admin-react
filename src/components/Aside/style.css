@@ -2,10 +2,17 @@
 aside ul.menu-nav{
     margin: 0;
     padding: 0 15px 0px 15px;
-    width: 20vw;
     height: 100vh;
-    background: rgb(13,0,36);
     background: linear-gradient(180deg, rgb(68, 80, 250) 15%, rgb(14, 45, 224) 100%, rgb(12, 16, 236) 100%);
+  
+      
+}
+.menu-nav.close{
+    left: 0;
+   animation: slide-close 2.0s forwards;
+}
+@keyframes lide-close{
+    100% {left: -100%;}
 }
 
 aside ul.menu-nav a.nav-title{
@@ -52,9 +59,64 @@ aside ul.menu-nav .nav-item{
  aside ul.menu-nav .nav-item-action span{
      margin-left: 10px;
  }
+ .close-menu{
+     position: relative;
+     width: 100%;
+     background-color: violet;
+ }
+ .close-button{
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    font-weight: bold;
+    font-size: 25px;
+    position: absolute;
+    right: 0;
+    color: #fff;
+ }
+ @media (max-width: 800px) {
+   .menu-nav{
+        display: block;
+        position: absolute;
+        z-index: 200;
+        width: 80vw;
+        left: -80vw;
+      animation: open-menu .7s forwards;
+    }
 
- @media only screen and (max-width: 600px) {
-    ul.menu-nav{
+    .menu-nav.close{
+        left: 0;
+       animation: slide-close 2.0s forwards;
+    }
+    @keyframes slide-close{
+        100% {left: -80vw;}
+    } 
+
+@keyframes open-menu {
+    100%{left: 0;}
+}
+ }
+ 
+ @media (min-width: 801px){
+    .menu-nav{
+        display: block;
+        z-index: 200;   
+       width: 20vw;
+      left: -20vw;
+      animation: open-menu .7s forwards;
+    }
+    .close-button{
         display: none;
     }
+    .menu-nav.close{
+        left: 0;
+       animation: slide-close .7s forwards;
+    }
+    @keyframes slide-close{
+        100% {left: -20vw;}
+    }
+
+    @keyframes open-menu {
+        100% {left: 0;}
+    }
+   
  }

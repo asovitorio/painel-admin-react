@@ -4,7 +4,7 @@ import './style.css'
 export default  function Section(){
     return (
         <section>
-        <h1>Section</h1>
+        <h1>App Dashboard</h1>
         </section>
     )
 }
