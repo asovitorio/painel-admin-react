@@ -40,7 +40,8 @@ header{
 .nav-bar-link a i{
     color:rgba(189, 189, 189, 0.603); ;
     position: relative;
-
+    font-size: 20px;
+    margin-right: 20px;
 }
 .nav-bar-link a i:hover{
 color:  rgba(51, 51, 51, 0.685);

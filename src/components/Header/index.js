@@ -7,7 +7,6 @@ export default function Header(props) {
     return(
       <header>
         <nav className="nav-bar">
-     
           <div className="suport"></div>
           <ul className="nav-bar-list">
               <li className="nav-bar-link">
@@ -19,13 +18,12 @@ export default function Header(props) {
               <div className="nav-bar-divider"> </div>
               <li className="nav-bar-link">
                 <a href="/">
-                <span className="user-name">ALessandro Vitorio</span>
+                <span className="user-name">Alessandro Vitorio</span>
                   <img className="avatar" src={Avatar} alt="Avatar"/>
                 </a>
               </li>
           </ul>
           </nav>
-       
       </header>
     )
 }

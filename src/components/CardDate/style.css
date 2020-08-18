@@ -1,4 +1,4 @@
-.card{
+.card1{
     width:90%;
     height: 150px;
     max-width: 420px;
@@ -9,6 +9,7 @@
     flex-direction: row;
     align-items: center;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.212);
+ background-color: #fff;
 }
 .card-date h4{
     font-size: 15px;

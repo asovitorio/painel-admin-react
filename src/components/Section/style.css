@@ -1,5 +1,6 @@
 section{
 height: 85vh;
+overflow-y: auto;
 }
 section h1.title{
     margin-top: 10px;
@@ -11,4 +12,8 @@ article.card-group{
     justify-content: space-between;
     align-items: center;
     margin: 20px 30px;
+}
+.row{
+    display: flex;
+    justify-content: center;
 }

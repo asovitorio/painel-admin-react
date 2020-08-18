@@ -1,0 +1,12 @@
+.row{
+    display: flex;
+    flex-direction: row;
+    padding: 20px 20px;
+    justify-content:center;
+    
+}
+.paragrafo{
+    font-weight: 600;
+    color: grey;
+}
+
