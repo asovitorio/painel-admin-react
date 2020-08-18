@@ -2,5 +2,16 @@
 width: -webkit-fill-available;
 display: flex;
 justify-content: center;
+
 }
 
+.category{
+   transition: all .3s ease-in-out;
+}
+
+.category:hover{
+    opacity: 0.8;
+    background: linear-gradient(180deg, rgb(68, 80, 250) 15%, rgb(14, 45, 224) 100%, rgb(12, 16, 236) 100%);
+      box-shadow: 0 0 0 5px#138bd6 ;
+    border:2px solid white;
+}

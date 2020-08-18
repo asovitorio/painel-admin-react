@@ -3,8 +3,6 @@ import './style.css'
 import Header from '../Header';
 import Section from '../Section';
 import Footer from '../Footer';
-
-
 export default function Main(){
     const [sidebarOpen,setSidebarOpen] = useState(false)
     const toogle = ()=>{
@@ -14,9 +12,7 @@ export default function Main(){
             setSidebarOpen(false)
         }
     }
-    
     return(
-       
         <main>
         <Header nav={toogle} />
         <Section />

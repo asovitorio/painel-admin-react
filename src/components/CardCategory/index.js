@@ -7,8 +7,8 @@ export default function Card(props){
             <div class="row">
                 {category.map(item=>(
             <div className="col-sm-6">
-                    <div className="card text-white bg-info mb-3">
-                    <div className="card-body">
+                    <div className="card text-white bg-info mb-3 card-category">
+                    <div className="card-body category">
                         <h5 className="card-title title-categoria">Category: {item} </h5>
                     </div>
                     </div>
