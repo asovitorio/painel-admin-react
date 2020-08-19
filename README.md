@@ -22,7 +22,7 @@ você reserve alguns minutos para rever estes conceitos.
 > pode executar alguns dos seguintes comandos:
 >
 > -    `npx create-react-app my-app` 
-> -    `npm init react-app my-app`
+> -    `npm init react-app my-app`<br>
 > Uma vez que você tenha o aplicativo instalado. Você deve levar em conta que os
 > componentes gerados devem estar dentro da pasta `/​src` e de preferência dentro de
 > uma pasta chamada `​/components`. 
